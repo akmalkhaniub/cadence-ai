@@ -1,0 +1,66 @@
+{
+  "conference_id": "KUBECON-2024-REAL",
+  "title": "KubeCon + CloudNativeCon North America 2024",
+  "format": "HYBRID",
+  "timezone": "America/Chicago",
+  "duration_days": 3,
+  "tracks": [
+    {"name": "Architecture & Multi-Cluster", "color_hex": "#326CE5"},
+    {"name": "Security, Identity & Policy", "color_hex": "#DC2626"},
+    {"name": "Observability & Tracing", "color_hex": "#059669"},
+    {"name": "AI/ML Workloads on Kubernetes", "color_hex": "#7C3AED"}
+  ],
+  "rooms": [
+    {"name": "Auditorium Skyline", "capacity": 2500, "is_virtual": true},
+    {"name": "Room 301 (Security)", "capacity": 600, "is_virtual": true},
+    {"name": "Room 302 (Observability)", "capacity": 600, "is_virtual": true}
+  ],
+  "sessions": [
+    {
+      "title": "CNCF Keynote: The State of Cloud Native & Generative Infrastructure",
+      "track": "Architecture & Multi-Cluster",
+      "room": "Auditorium Skyline",
+      "format": "KEYNOTE",
+      "start_time": "2026-11-10T08:30:00Z",
+      "end_time": "2026-11-10T09:30:00Z",
+      "duration_minutes": 60,
+      "speaker": {"name": "Priyanka Sharma", "email": "priyanka@cncf.io", "company": "Cloud Native Computing Foundation"}
+    },
+    {
+      "title": "Hardening Multi-Tenant Kubernetes with eBPF and Cilium",
+      "track": "Security, Identity & Policy",
+      "room": "Room 301 (Security)",
+      "format": "BREAKOUT",
+      "start_time": "2026-11-10T10:00:00Z",
+      "end_time": "2026-11-10T10:45:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Thomas Graf", "email": "thomas.graf@isovalent.com", "company": "Isovalent / Cisco"}
+    },
+    {
+      "title": "Distributed Tracing with OpenTelemetry at 10 Million Spans/sec",
+      "track": "Observability & Tracing",
+      "room": "Room 302 (Observability)",
+      "format": "BREAKOUT",
+      "start_time": "2026-11-10T10:00:00Z",
+      "end_time": "2026-11-10T10:45:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Alex Chen", "email": "alex.chen@enterprise.com", "company": "Enterprise Systems"}
+    },
+    {
+      "title": "Scaling Distributed LLM Fine-Tuning across 1,000 GPUs on EKS",
+      "track": "AI/ML Workloads on Kubernetes",
+      "room": "Auditorium Skyline",
+      "format": "BREAKOUT",
+      "start_time": "2026-11-10T11:00:00Z",
+      "end_time": "2026-11-10T11:45:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "David K.", "email": "david.k@cloudinfra.net", "company": "HyperScale Labs"}
+    }
+  ],
+  "sponsors": [
+    {"name": "Red Hat", "tier": "TITLE", "booth_template": "platinum_booth_v2"},
+    {"name": "VMware by Broadcom", "tier": "PLATINUM", "booth_template": "platinum_booth_v2"},
+    {"name": "Datadog", "tier": "GOLD", "booth_template": "standard_booth_v1"},
+    {"name": "Intel", "tier": "GOLD", "booth_template": "standard_booth_v1"}
+  ]
+}

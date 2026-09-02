@@ -1,0 +1,88 @@
+{
+  "conference_id": "PYCON-2024-REAL",
+  "title": "PyCon Global Developer Conference 2024",
+  "format": "HYBRID",
+  "timezone": "America/New_York",
+  "duration_days": 3,
+  "tracks": [
+    {"name": "Python Internals & Performance", "color_hex": "#306998"},
+    {"name": "Data Science & AI", "color_hex": "#FFD43B"},
+    {"name": "Web Systems & Cloud", "color_hex": "#10B981"},
+    {"name": "Developer Tooling", "color_hex": "#8B5CF6"}
+  ],
+  "rooms": [
+    {"name": "Grand Ballroom Keynote", "capacity": 1200, "is_virtual": true},
+    {"name": "Hall A (Internals)", "capacity": 450, "is_virtual": true},
+    {"name": "Hall B (Data & AI)", "capacity": 500, "is_virtual": true},
+    {"name": "Room 101 (Cloud)", "capacity": 250, "is_virtual": true}
+  ],
+  "sessions": [
+    {
+      "title": "Keynote: Next Generation Python & The Free-Threaded Future",
+      "track": "Python Internals & Performance",
+      "room": "Grand Ballroom Keynote",
+      "format": "KEYNOTE",
+      "start_time": "2026-10-15T09:00:00Z",
+      "end_time": "2026-10-15T10:00:00Z",
+      "duration_minutes": 60,
+      "speaker": {"name": "Dr. Guido van Rossum", "email": "guido@python.org", "company": "Python Core Team"}
+    },
+    {
+      "title": "Deep Dive: Building Resilient AI Agents with LangGraph",
+      "track": "Data Science & AI",
+      "room": "Hall B (Data & AI)",
+      "format": "BREAKOUT",
+      "start_time": "2026-10-15T10:30:00Z",
+      "end_time": "2026-10-15T11:15:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Elena Rostova", "email": "elena.rostova@agentic.ai", "company": "Agentic Labs"}
+    },
+    {
+      "title": "High-Throughput Asyncio: Serving 100k WebSockets per Host",
+      "track": "Web Systems & Cloud",
+      "room": "Room 101 (Cloud)",
+      "format": "BREAKOUT",
+      "start_time": "2026-10-15T10:30:00Z",
+      "end_time": "2026-10-15T11:15:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Marcus Vance", "email": "m.vance@cloudscale.io", "company": "CloudScale IO"}
+    },
+    {
+      "title": "Inside the Faster CPython JIT: Architecture and Benchmarks",
+      "track": "Python Internals & Performance",
+      "room": "Hall A (Internals)",
+      "format": "BREAKOUT",
+      "start_time": "2026-10-15T11:30:00Z",
+      "end_time": "2026-10-15T12:15:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Mark Shannon", "email": "mark.shannon@python.org", "company": "CPython Compiler Team"}
+    },
+    {
+      "title": "Evaluating LLM Agent Reliability at Enterprise Scale",
+      "track": "Data Science & AI",
+      "room": "Hall B (Data & AI)",
+      "format": "BREAKOUT",
+      "start_time": "2026-10-15T11:30:00Z",
+      "end_time": "2026-10-15T12:15:00Z",
+      "duration_minutes": 45,
+      "speaker": {"name": "Dr. Samantha Reed", "email": "dr.reed@ai-institute.org", "company": "AI Research Labs"}
+    },
+    {
+      "title": "Panel: The Future of Developer Tooling with Autonomous MCP",
+      "track": "Developer Tooling",
+      "room": "Grand Ballroom Keynote",
+      "format": "PANEL",
+      "start_time": "2026-10-15T14:00:00Z",
+      "end_time": "2026-10-15T15:00:00Z",
+      "duration_minutes": 60,
+      "speaker": {"name": "Sarah Connor", "email": "sarah.connor@ai-summit.org", "company": "OmniCorp Systems"}
+    }
+  ],
+  "sponsors": [
+    {"name": "Microsoft Corporation", "tier": "PLATINUM", "booth_template": "platinum_booth_v2"},
+    {"name": "Google Cloud", "tier": "PLATINUM", "booth_template": "platinum_booth_v2"},
+    {"name": "AWS Open Source", "tier": "GOLD", "booth_template": "standard_booth_v1"},
+    {"name": "JetBrains", "tier": "GOLD", "booth_template": "standard_booth_v1"},
+    {"name": "Bloomberg Engineering", "tier": "SILVER", "booth_template": "standard_booth_v1"}
+  ]
+}
